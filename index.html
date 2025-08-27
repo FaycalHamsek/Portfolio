@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Fayçal Hamsek</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Fayçal Hamsek</h1>
+    <p>Développeur Informatique</p>
+    <p id="typewriter" class="typewriter"></p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#experiences">Expériences</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#marine">Vie marine</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>Actuellement en 3ᵉ année de BUT Informatique à l'IUT de Villetaneuse et en alternance à l’ANFH, je participe à la gestion et à la fiabilité des données hospitalières via Oracle SQL Developer et d’autres technologies orientées bases de données.</p>
+    <p>Mon parcours a débuté en STI2D, où j’ai découvert mon intérêt pour l’informatique et les projets techniques. Au fil de mon cursus, j’ai acquis des compétences solides en développement web (PHP, architecture MVC, tests automatisés), en algorithmique et en gestion de bases de données relationnelles et NoSQL.</p>
+    <p>Je souhaite poursuivre en <strong>Master Big Data & Intelligence Artificielle</strong> pour me spécialiser dans l’exploitation et l’analyse de données massives. Mon objectif à long terme est de mettre ces compétences au service d’un domaine qui me passionne : <strong>la biologie marine</strong>, en utilisant la data science et l’IA pour contribuer à la préservation des écosystèmes aquatiques.</p>
+  </section>
+
+  <section id="projets">
+    <h2>Projets</h2>
+  
+    <div class="projet">
+      <h3>🩺 Chatbot médical spécialisé en schizophrénie</h3>
+      <p>Développement d’un chatbot capable de répondre à des questions de santé, en particulier sur la schizophrénie, à partir d’une base documentaire médicale vectorisée.</p>
+      <p><strong>Techno & outils :</strong> React, FastAPI, MongoDB Atlas, Hugging Face, Docker</p>
+      <p><strong>Ce que j’ai appris :</strong> mise en place d’une API complète, intégration d’un modèle LLM via API, gestion de documents vectorisés, mais aussi la rigueur nécessaire à la gestion de données sensibles.</p>
+      <a href="Rapport_Chatbot.pdf" class="download-btn">📄 Rapport Chatbot</a>
+    </div>
+  
+    <div class="projet">
+      <h3>🧠 Classification d’âge et de genre par CNN</h3>
+      <p>Création de modèles de Deep Learning pour reconnaître l’âge et le genre à partir d’images faciales, avec mise en production via Gradio et Hugging Face Spaces.</p>
+      <p><strong>Techno & outils :</strong> Python, TensorFlow, Scikit-Learn, CNN, EfficientNetB2, Gradio</p>
+      <p><strong>Ce que j’ai appris :</strong> gestion complète d’un projet IA, du nettoyage des données jusqu’à l’évaluation des performances (MSE, MAE, F1-score), tout en découvrant le transfert learning et les bonnes pratiques d'entraînement.</p>
+      <a href="Rapport_SAE_Classification_age_genre.pdf" class="download-btn">📄 Rapport IA Âge & Genre</a>
+    </div>
+  
+    <div class="projet">
+      <h3>🎰 Site de loterie MVC avec IA et classement</h3>
+      <p>Site web permettant à des utilisateurs (humains ou bots) de participer à des tirages de loterie, avec un système de grilles, classement, gains dynamiques et simulations.</p>
+      <p><strong>Techno & outils :</strong> PHP, PostgreSQL, HTML/CSS, JavaScript, PHPUnit</p>
+      <p><strong>Ce que j’ai appris :</strong> architecture MVC en PHP, gestion de la complexité (règles métier, logique de simulation), développement orienté test avec PHPUnit, et surtout l’importance d’une bonne organisation dans un projet à contraintes de temps.</p>
+    </div>
+    
+  </section>
+  
+  <section id="experiences">
+    <h2>Expériences professionnelles</h2>
+  
+    <!-- Stage VAE Les 2 Rives -->
+    <div class="experience">
+      <h3>Stagiaire en informatique – Les 2 Rives</h3>
+      <p><em>Janv. 2024 – Avr. 2024 · 4 mois · Hybride · Ville de Paris, Île-de-France</em></p>
+  
+      <h4>Missions principales :</h4>
+      <ul>
+        <li>Maintenance et amélioration d'une API PHP pour l'indexation et le traitement des données clients.</li>
+        <li>Connexion de l'ERP VAE ONLINE à Elasticsearch pour générer des visualisations dynamiques via Kibana.</li>
+        <li>Création d’un tableau de bord pour suivre les performances et la répartition des candidats.</li>
+      </ul>
+  
+      <h4>Points forts et acquis :</h4>
+      <ul>
+        <li>Maîtrise du développement d’API et manipulation de bases SQL et NoSQL.</li>
+        <li>Découverte concrète de la visualisation de données et du reporting en entreprise.</li>
+        <li>Compréhension des enjeux opérationnels et techniques de l’entreprise.</li>
+      </ul>
+  
+      <h4>Difficultés et points de vigilance :</h4>
+      <ul>
+        <li>Complexité des données clients et de l’ERP.</li>
+        <li>Gestion de données sensibles nécessitant rigueur et précision.</li>
+        <li>Besoin de renforcer les bases techniques pour plus d’efficacité (conseil du tuteur).</li>
+      </ul>
+  
+      <h4>Conclusion personnelle :</h4>
+      <p>Ce stage m’a permis d’acquérir une expérience professionnelle riche et diversifiée, de développer mes compétences techniques et de comprendre l’importance du travail en équipe et de la communication. Il a conforté mon choix de carrière en informatique et stimulé ma créativité.</p>
+    </div>
+  
+    <!-- Alternance ANFH -->
+    <div class="experience">
+      <h3>Analyste développeur – ANFH</h3>
+      <p><em>Juil. 2024 – Aujourd’hui · Contrat en alternance · Sur site · Ville de Paris, Île-de-France</em></p>
+  
+      <h4>Introduction :</h4>
+      <p>Dans le cadre de ma troisième année de BUT Informatique, j’effectue une alternance d’un an au sein du service informatique de l’ANFH, après mon stage chez Les 2 Rives. L’ANFH gère les fonds de formation de plus de 950 000 agents hospitaliers. J’ai rapidement participé à plusieurs projets clés, tout en me familiarisant avec les processus et outils en place.</p>
+  
+      <h4>Missions principales :</h4>
+      <ul>
+        <li>Analyse des besoins fonctionnels et faisabilité en respectant le modèle de données.</li>
+        <li>Développement et tests de scripts SQL et PL/SQL pour traiter les données des agents.</li>
+        <li>Automatisation des traitements quotidiens et gestion des erreurs d’intégration.</li>
+        <li>Participation à l’évolution des procédures stockées pour améliorer performances et fiabilité.</li>
+        <li>Support aux utilisateurs et traitement des demandes spécifiques.</li>
+        <li>Collaboration avec l’équipe Data/Prod sur des projets transversaux liés à la qualité des données.</li>
+      </ul>
+  
+      <h4>Méthodologie et évolutions techniques :</h4>
+      <ul>
+        <li>Automatisation initiale via scripts PL/SQL, transformés ensuite en procédures stockées pour centraliser et fiabiliser les traitements.</li>
+        <li>Refonte de la structure des tables pour pré-tri et traitement optimisé selon l’identifiant de cause de rejet.</li>
+        <li>Optimisation des performances, meilleure traçabilité et maintenance simplifiée.</li>
+      </ul>
+  
+      <h4>Points forts et acquis :</h4>
+      <ul>
+        <li>Développement avancé en PL/SQL et optimisation des processus.</li>
+        <li>Renforcement de la rigueur, de l’analyse et de la capacité à résoudre des problèmes complexes.</li>
+        <li>Expérience concrète en gestion des données, automatisation et support aux utilisateurs.</li>
+        <li>Application des six compétences du BUT : réaliser, optimiser, administrer, gérer, conduire et collaborer.</li>
+      </ul>
+  
+      <h4>Difficultés et axes d’amélioration :</h4>
+      <ul>
+        <li>Complexité de la gestion des lots de données et des anomalies.</li>
+        <li>Planification à long terme et anticipation de blocages techniques.</li>
+      </ul>
+  
+      <h4>Conclusion personnelle :</h4>
+      <p>Cette alternance m’a permis d’acquérir une réelle autonomie technique et de renforcer mes compétences en développement, administration de bases de données et optimisation. Elle m’a conforté dans mon choix de poursuivre mes études en Master Big Data & IA et de m’orienter vers la vie marine en combinant mes compétences techniques avec ma passion pour l’environnement.</p>
+    </div>
+  </section>
+
+  <section id="competences">
+    <h2>Compétences</h2>
+  
+    <div class="competence">
+      <h3><span class="badge">C1</span> Réaliser un développement d’application</h3>
+      <p>Grâce à mes expériences (SAE S3, SAE S4, stage VAE Les 2 Rives, alternance ANFH), j’ai acquis une solide maîtrise du développement web, particulièrement en PHP, SQL et JavaScript. J’ai appris à concevoir des applications respectant l’architecture MVC, à utiliser PHPUnit pour les tests, et à développer des APIs robustes pour manipuler des données complexes.</p>
+      <div class="icons">
+        <img src="assets/php.png" alt="PHP">
+        <img src="assets/js.png" alt="JavaScript">
+        <img src="assets/html.png" alt="HTML">
+        <img src="assets/css.png" alt="CSS">
+        <img src="assets/postgresql.png" alt="PostgreSQL">
+      </div>
+    </div>
+  
+    <div class="competence">
+      <h3><span class="badge">C2</span> Optimiser des applications informatiques</h3>
+      <p>Lors de l’audit de code (SAE S4) et de mes missions en entreprise, j’ai travaillé sur l’amélioration des performances et de la qualité des applications : suppression de redondances, optimisation de requêtes SQL, et adaptation des scripts pour répondre aux contraintes métier.</p>
+      <div class="icons">
+        <img src="assets/php.png" alt="PHP">
+        <img src="assets/postgresql.png" alt="PostgreSQL">
+        <img src="assets/Utest.png" alt="Tests unitaires">
+      </div>
+    </div>
+  
+    <div class="competence">
+      <h3><span class="badge">C3</span> Administrer des systèmes informatiques communicants</h3>
+      <p>J’ai découvert et pratiqué le déploiement de sites via différents environnements (local, distant, containers Docker), tout en m’assurant de la cohérence des configurations réseau et des accès aux bases de données.</p>
+      <div class="icons">
+        <img src="assets/docker.png" alt="Docker">
+      </div>
+    </div>
+  
+    <div class="competence">
+      <h3><span class="badge">C4</span> Gérer des données de l’information</h3>
+      <p>Je me suis perfectionné dans la modélisation et l’analyse de bases de données, que ce soit dans les SAE ou en entreprise (ERP 450 tables, reporting via API). Je sais identifier les données essentielles, optimiser leur structure et garantir leur intégrité.</p>
+      <div class="icons">
+        <img src="assets/sql.png" alt="SQL">
+        <img src="assets/postgresql.png" alt="PostgreSQL">
+        <img src="assets/mongodb.png" alt="MongoDB">
+      </div>
+    </div>
+  
+    <div class="competence">
+      <h3><span class="badge">C5</span> Conduire un projet</h3>
+      <p>Grâce à mes projets académiques et professionnels, j’ai appris à planifier efficacement les tâches, respecter des délais stricts et assurer le suivi via des outils adaptés. J’ai également compris l’importance des méthodes agiles et de la communication dans la réussite d’un projet.</p>
+      <div class="icons">
+        <img src="assets/trello.png" alt="Trello">
+        <img src="assets/gantt.png" alt="Gantt">
+        <img src="assets/agile.png" alt="Agile">
+      </div>
+    </div>
+  
+    <div class="competence">
+      <h3><span class="badge">C6</span> Travailler dans une équipe informatique</h3>
+      <p>J’ai collaboré avec des équipes variées, tant à l’IUT qu’en entreprise. Cela m’a permis d’adapter ma communication, d’être clair et efficace, même en contexte hybride.</p>
+      <div class="icons">
+        <img src="assets/git.png" alt="Git">
+        <img src="assets/github.png" alt="GitHub">
+      </div>
+    </div>
+  </section>
+
+  <section id="marine">
+    <h2>Pourquoi la vie marine ?</h2>
+    <p>Depuis toujours, les océans m’inspirent par leur complexité et leur importance pour l’équilibre écologique mondial. Mon rêve est d’unir IA et science marine pour mieux comprendre et préserver ces environnements uniques.</p>
+    <blockquote>“L'océan est l'ultime algorithme naturel, en perpétuelle évolution. À nous d’apprendre à le lire.”</blockquote>
+  </section>
+
+  <section id="conclusion">
+    <h2>En quelques mots</h2>
+    <p>
+      Tout au long de mon parcours en informatique, entre projets académiques, stage et alternance, j’ai pu explorer différents domaines, du développement web à la gestion de bases de données, en passant par l’intelligence artificielle et le Big Data. Ces expériences m’ont permis de renforcer ma curiosité, ma rigueur et mon sens de l’analyse.
+    </p>
+    <p>
+      J’ai appris à travailler en équipe, à proposer des solutions concrètes et à m’adapter à des environnements techniques variés. Plus qu’un simple ensemble de compétences, ces expériences m’ont donné confiance dans ma capacité à relever des défis et à continuer à apprendre.
+    </p>
+    <p>
+      Aujourd’hui, je regarde vers l’avenir avec l’envie de combiner mes connaissances techniques avec ma passion pour la vie marine, et de contribuer à des projets qui allient innovation, données et préservation des écosystèmes.
+    </p>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : hamsek.faycal7@gmail.com</p>
+    <p><a href="https://github.com/FaycalHamsek" target="_blank">GitHub</a> </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Fayçal Hamsek – Inspiré par l'océan 🌊</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+<div class="bubbles">
+  <span style="--i:11"></span>
+  <span style="--i:12"></span>
+  <span style="--i:24"></span>
+  <span style="--i:10"></span>
+  <span style="--i:14"></span>
+  <span style="--i:23"></span>
+  <span style="--i:18"></span>
+  <span style="--i:16"></span>
+  <span style="--i:19"></span>
+  <span style="--i:20"></span>
+</div>
+</html>
